@@ -1,12 +1,6 @@
 {
   "name": "typescript-course",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "dependencies": {
-    "typescript": "^4.6.4"
-  },
   "devDependencies": {
     "@types/chai": "^4.3.1",
     "@types/chai-spies": "^1.0.3",
@@ -24,11 +18,11 @@
     "jsdom-global": "^3.0.2",
     "mocha": "^10.0.0",
     "sinon": "^14.0.0",
-    "ts-node": "^10.7.0"
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
   },
   "scripts": {
-    "start": "npm run start"
-  },
-  "author": "",
-  "license": "ISC"
+    "build": "tsc",
+    "test": "mocha"
+  }
 }
