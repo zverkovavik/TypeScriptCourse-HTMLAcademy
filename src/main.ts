@@ -1,4 +1,4 @@
-import { createHeader, formatTime, getDate } from "../utils";
+import { createHeader, formatTime, getDate } from "./utils";
 
 document.body.appendChild(createHeader(formatTime(getDate())));
 
