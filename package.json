@@ -6,7 +6,7 @@
     "@types/chai-spies": "^1.0.3",
     "@types/jsdom": "^20.0.0",
     "@types/jsdom-global": "^3.0.4",
-    "@types/mocha": "^9.1.1",
+    "@types/mocha": "^10.0.0",
     "@types/sinon": "^10.0.13",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@typescript-eslint/parser": "^5.40.0",
